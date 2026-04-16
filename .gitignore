@@ -1,0 +1,13 @@
+# Ağır veri dosyalarını gizle (GitHub'ı yormasın)
+*.csv
+*.parquet
+*.sqlite
+data/
+
+# Ama outputs klasöründeki raporları ve görselleri GÖSTER
+!outputs/
+!outputs/*.png
+!outputs/*.jpg
+!outputs/*.pdf
+!outputs/report.md
+.env
